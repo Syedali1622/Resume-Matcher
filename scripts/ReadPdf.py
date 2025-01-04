@@ -1,7 +1,7 @@
 import glob
 import os
 
-from pypdf import PdfReader
+from PyPDF2 import PdfReader
 
 
 def get_pdf_files(file_path):
